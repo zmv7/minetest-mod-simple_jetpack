@@ -27,7 +27,7 @@ armor:register_armor("simple_jetpack:jetpack", {
 	description = "Simple Jetpack",
 	inventory_image = "simple_jetpack_preview.png",
 	armor_groups = {fleshy=10},
-	groups = {armor_torso=1, armor_heal=100, armor_use=500,},
+	groups = {armor_torso=1, armor_heal=0, armor_use=1000},
 })
 
 armor:register_on_equip(function(player, index, stack)
