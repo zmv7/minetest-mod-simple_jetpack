@@ -2,3 +2,5 @@
 Simple jetpack for 3d_armor that uses add_velocity() function
 ### Usage:
 * Craft jetpack, put in 3d_armor slot(instead chestplate), fly by holding jump button
+### Warning
+* Jetpack can work laggy due to unstable client-server synchronization.
